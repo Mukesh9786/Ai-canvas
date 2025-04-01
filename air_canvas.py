@@ -126,8 +126,8 @@ while True:
                 continue
             cv2.line(frame, pts[i - 1], pts[i], colors[color], brush_thickness)
 
-    # Display Canvas
-    cv2.imshow("AI Air Canvas (Fixed)", frame)
+    # Display Canvass
+    cv2.imshow("AI Air Canvas (Fixed)", frame) 
 
     key = cv2.waitKey(1)
     if key == 27:  # Press ESC to exit
